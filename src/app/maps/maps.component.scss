@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Ganon;
+  src: url("../../assets/fonts/ReturnofGanon.otf") format("truetype");
+}
+
+* {
+  font-family: "Ganon";
+}
+
+#map {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}

@@ -1,0 +1,20 @@
+{
+    "MAP_LIST": [
+        {
+            "name": "Adventure",
+            "source": "../../../assets/maps/adventure/map.png"
+        },
+        {
+            "name": "Master Quest",
+            "source": "../../../assets/maps/master/map.png"
+        },
+        {
+            "name": "Twilight",
+            "source": "../../../assets/maps/twilight/map.png"
+        },
+        {
+            "name": "Termina",
+            "source": "../../../assets/maps/termina/map.png"
+        }
+    ]
+}

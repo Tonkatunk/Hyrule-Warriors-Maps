@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 // Components
-import { AdventureComponent } from './adventure/adventure.component';
+import { TileComponent } from './tile/tile.component';
 
 @NgModule({
-  declarations: [AdventureComponent],
+  declarations: [TileComponent],
   imports: [CommonModule],
+  entryComponents: [TileComponent],
 })
 export class MapsModule {}

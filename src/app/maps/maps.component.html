@@ -1,3 +1,11 @@
-<mat-list>
-    <a mat-list-item routerLink="{{map.link}}" *ngFor="let map of maps" routerLinkActive="active">{{map.name}}</a>
-</mat-list>
+<mat-tab-group mat-align-tabs="start">
+    <mat-tab *ngFor="let map of maps" label="{{map.name}}">
+        <img id="map" src="{{map.source}}" alt="">
+
+        <mat-grid-list id="tiles" cols="16" rowHeight="16:8">
+            <mat-grid-tile *ngFor="let tile of tiles" (click)="openTile(tile)">
+                <!-- <button mat-button (click)="openTile(tile)">click me</button> -->
+            </mat-grid-tile>
+        </mat-grid-list>
+    </mat-tab>
+</mat-tab-group>

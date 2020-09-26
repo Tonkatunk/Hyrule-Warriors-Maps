@@ -1,0 +1,73 @@
+{
+    "TILE_LIST": [
+        {
+            "position": "1A",
+            "blurb": "Defeat 1,000 enemies in time!",
+            "search": "",
+            "aRank": [],
+            "victory": [
+                {
+                    "loot": "heart",
+                    "char": "agitha"
+                }
+            ],
+            "treasure": [],
+            "kos": 0,
+            "time": 15,
+            "damage": 199,
+            "source": "../../../assets/maps/adventure/tiles/1A.gif"
+        },
+        {
+            "position": "1B",
+            "blurb": "Stop the healers from, well, healing!",
+            "search": "Bomb",
+            "aRank": [
+                {
+                    "loot": "keaton"
+                }
+            ],
+            "victory": [],
+            "treasure": [
+                {
+                    "loot": "beans",
+                    "where": "South Field Keep"
+                }
+            ],
+            "kos": 1200,
+            "time": 15,
+            "damage": 199,
+            "source": "../../../assets/maps/adventure/tiles/1B.gif"
+        },
+        {
+            "position": "1C",
+            "blurb": "Defeat the Dinolfos Forces!",
+            "search": "mitts",
+            "aRank": [
+                {
+                    "loot": "heart",
+                    "char": "impa"
+                }
+            ],
+            "victory": [],
+            "treasure": [
+                {
+                    "loot": "piece",
+                    "char": "toonLink",
+                    "where": "West Square"
+                },
+                {
+                    "loot": "fairy",
+                    "where": "Fairy Fountain"
+                },
+                {
+                    "loot": "egg",
+                    "where": "Dark Forest Keep"
+                }
+            ],
+            "kos": 1200,
+            "time": 15,
+            "damage": 149,
+            "source": "../../../assets/maps/adventure/tiles/1C.gif"
+        }
+    ]
+}

@@ -12,7 +12,7 @@ const routes: Routes = [
     component: MapsComponent,
     children: [
       {
-        path: 'adventure',
+        path: '',
         component: AdventureComponent,
       },
     ],
