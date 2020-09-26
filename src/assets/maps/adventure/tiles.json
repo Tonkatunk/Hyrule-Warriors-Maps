@@ -1,7 +1,7 @@
 {
     "TILE_LIST": [
         {
-            "position": "1A",
+            "position": "A1",
             "blurb": "Defeat 1,000 enemies in time!",
             "search": "",
             "aRank": [],
@@ -15,10 +15,10 @@
             "kos": 0,
             "time": 15,
             "damage": 199,
-            "source": "../../../assets/maps/adventure/tiles/1A.gif"
+            "source": "../../../assets/maps/adventure/tiles/A1.gif"
         },
         {
-            "position": "1B",
+            "position": "A2",
             "blurb": "Stop the healers from, well, healing!",
             "search": "Bomb",
             "aRank": [
@@ -36,10 +36,10 @@
             "kos": 1200,
             "time": 15,
             "damage": 199,
-            "source": "../../../assets/maps/adventure/tiles/1B.gif"
+            "source": "../../../assets/maps/adventure/tiles/A2.gif"
         },
         {
-            "position": "1C",
+            "position": "A3",
             "blurb": "Defeat the Dinolfos Forces!",
             "search": "mitts",
             "aRank": [
@@ -67,7 +67,34 @@
             "kos": 1200,
             "time": 15,
             "damage": 149,
-            "source": "../../../assets/maps/adventure/tiles/1C.gif"
-        }
+            "source": "../../../assets/maps/adventure/tiles/A3.gif"
+        },
+        {
+            "position": "A4",
+            "blurb": "Defeat the Shield Moblin Forces! Lv.1",
+            "search": "iceArrow",
+            "aRank": [
+                {
+                    "loot": "heart",
+                    "char": "zant"
+                }
+            ],
+            "victory": [],
+            "treasure": [
+                {
+                    "loot": "piece",
+                    "char": "zant",
+                    "where": "Southeast Square"
+                },
+                {
+                    "loot": "oddMush",
+                    "where": "Fairy Fountain"
+                }
+            ],
+            "kos": 1200,
+            "time": 15,
+            "damage": 149,
+            "source": "../../../assets/maps/adventure/tiles/A4.gif"
+		}
     ]
 }
